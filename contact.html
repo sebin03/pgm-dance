@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body background="imk.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <div id="loginbox">
+    <form action="success.html" onsubmit="return validate();">
+        <h1>Registration Form</h1>
+        <label for="">College Name:</label>
+        <br>
+        <input type="text" name="name" id="clgname">
+        <br>
+        <div id="usercheck"></div>
+
+        <label for="">place:</label>
+        <br>
+        <input type="text" name="plc" id="place">
+        <br>
+
+        <label for="">Team name:</label>
+        <br>
+        <input type="text" name="team" id="team">
+        <br>
+        
+        <label for="">Number of Members in Team:</label>
+        <br>
+        <input type="number" name="mteam" id="mteam">
+        <br>
+        
+        <label for="">Team Leader's Name:</label>
+        <br>
+        <input type="text" name="name" id="TLname">
+        <br>
+
+        <label for="">Contact number of Team Leader:</label>
+        <br>
+        <input type="number" name="TLnum" id="TLnum">
+        <br>
+        
+        <label for="">Email ID:</label><br>
+        <input type="email" name="email" id="email" required>
+        
+        <button id="submit">Submit</button>
+        <script src="login.js"></script>
+        <script src="form.js"></script>
+
+    </form>
+</div>
+</body>
+</html>

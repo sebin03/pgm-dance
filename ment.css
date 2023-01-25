@@ -1,0 +1,16 @@
+ body{
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 500px;
+    
+ }
+ h1{
+   
+    color: rgb(0, 0, 0);
+ }
+ h2{ 
+    color:rgb(89, 42, 165);
+ }
+ a{
+    color: blue;
+ }
